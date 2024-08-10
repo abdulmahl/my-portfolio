@@ -14,7 +14,7 @@ export default function Footer() {
         <Link
           href={"https://my-portfolio-5d0f.onrender.com/"}
           target="_blank"
-          className="hover:text-green-300"
+          className="hover:text-green-500 hover:underline underline-offset-4"
         >
           Mduduzi A. Mahlangu
         </Link>

@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <>
       <HeroBackgroundImage />
-      <section className={` absolute p-5 md:py-7 md:mr-[220px] lg:mr-[800px]`}>
+      <section className={` absolute p-3 md:p-5 lg:px-10 md:mr-[230px] lg:mr-[800px]`}>
         <h2
           className={
             "text-md text-green-500 font-semibold pb-[1px] md:text-xl lg:pb-[5px] lg:text-2xl"
@@ -19,9 +19,9 @@ export default function HeroSection() {
             "md:hidden lg:hidden text-sm text-gray-400 pb-[25px] lg:text-lg"
           }
         >
-          Join countless others who have made the switch to solar energy. Save
-          on your electricity bills and contribute to a greener planet with TVK
-          Solar and Electrical Services.
+          TVK Electrical and Solar Services: Your one-stop solution for all
+          electrical and solar needs—reliable, efficient, and sustainable for
+          your home and business.
         </p>
 
         <p
@@ -29,9 +29,9 @@ export default function HeroSection() {
             "hidden lg:hidden md:block text-gray-400 pb-[25px] lg:text-lg"
           }
         >
-          Join countless others who have made the switch to solar energy. <br />
-          Save on your electricity bills and contribute to a greener planet{" "}
-          <br /> with TVK Solar and Electrical Services.
+          TVK Electrical and Solar Services: Your one-stop solution for <br />{" "}
+          all electrical and solar needs—reliable, efficient, and sustainable{" "}
+          <br /> for your home and business.
         </p>
 
         <p
@@ -39,9 +39,9 @@ export default function HeroSection() {
             "hidden md:hidden lg:block text-gray-400 pb-[30px] lg:text-lg"
           }
         >
-          Join countless others who have made the switch to solar energy. <br />{" "}
-          Save on your electricity bills and contribute to a greener planet{" "}
-          <br /> with TVK Solar and Electrical Services.
+          TVK Electrical and Solar Services: Your one-stop solution for all <br />
+          electrical and solar needs—reliable, efficient, and sustainable for <br />
+          your home and business.
         </p>
         <Link
           href="/contact"
