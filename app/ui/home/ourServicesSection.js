@@ -2,10 +2,10 @@ import CompanyServicesImages from "./companyServiceImages";
 
 export default function OurServicesSection() {
   return (
-    <section className="p-3 md:p-5 lg:p-10 lg:flex justify-between">
+    <section className="p-3 md:p-5 lg:p-10 lg:flex items-start justify-between">
       <div>
-        <h2 className="text-green-500 pb-1 font-semibold text-2xl md:text-4xl lg:text-7xl">
-          Our Services Include:
+        <h2 className="text-green-500 mb-3 font-semibold text-2xl md:text-4xl">
+          Our Services Include
         </h2>
         <ul className="text-yellow-500 leading-8 text-sm md:text-lg md:leading-9 lg:text-2xl lg:leading-loose">
           <li className="flex items-center gap-1">
@@ -95,7 +95,7 @@ export default function OurServicesSection() {
           </li>
         </ul>
       </div>
-      <div className="flex flex-col gap-7 md:grid grid-cols-2">
+      <div className="pt-7 flex flex-col items-center gap-7 md:grid grid-cols-2 place-items-center lg:pt-0">
         <CompanyServicesImages />
       </div>
     </section>
