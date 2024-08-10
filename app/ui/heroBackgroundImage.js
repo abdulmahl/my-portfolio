@@ -15,7 +15,7 @@ export default function HeroBackgroundImage() {
         style={{
           // objectFit: "cover",
           padding: "10px",
-          opacity: 0.3,
+          opacity: 0.5,
         }}
         className="md:hidden w-full"
       />
@@ -26,7 +26,7 @@ export default function HeroBackgroundImage() {
         quality={100}
         style={{
           padding: "20px",
-          opacity: 0.3,
+          opacity: 0.5,
         }}
         className="hidden md:block lg:hidden w-full"
       />
@@ -36,7 +36,7 @@ export default function HeroBackgroundImage() {
         placeholder="blur"
         quality={100}
         style={{
-          opacity: 0.3,
+          opacity: 0.5,
         }}
         className="hidden md:hidden lg:block w-full px-[35px] mt-3"
       />
