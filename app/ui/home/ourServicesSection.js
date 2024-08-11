@@ -74,7 +74,7 @@ export default function OurServicesSection() {
                 d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"
               />
             </svg>
-            Solor Solutions
+            Solar Solutions
           </li>
           <li className="flex items-center gap-1">
             <svg
@@ -95,9 +95,7 @@ export default function OurServicesSection() {
           </li>
         </ul>
       </div>
-      <div className="pt-7 flex flex-col items-center gap-7 md:grid grid-cols-2 place-items-center lg:pt-0">
-        <CompanyServicesImages />
-      </div>
+      <CompanyServicesImages />
     </section>
   );
 }

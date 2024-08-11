@@ -6,14 +6,16 @@ export default function HeroSection() {
   return (
     <>
       <HeroBackgroundImage />
-      <section className={` absolute p-3 md:p-5 lg:px-10 md:mr-[230px] lg:mr-[800px]`}>
-        <h2
+      <section
+        className={` absolute p-3 md:p-5 lg:px-10 md:mr-[230px] lg:mr-[800px]`}
+      >
+        <h1
           className={
             "text-md text-green-500 font-semibold pb-[1px] md:text-xl lg:pb-[5px] lg:text-2xl"
           }
         >
           <em>Power Your Future with Clean, Reliable Energy</em>
-        </h2>
+        </h1>
         <p
           className={
             "md:hidden lg:hidden text-sm text-gray-400 pb-[25px] lg:text-lg"
@@ -39,8 +41,10 @@ export default function HeroSection() {
             "hidden md:hidden lg:block text-gray-400 pb-[30px] lg:text-lg"
           }
         >
-          TVK Electrical and Solar Services: Your one-stop solution for all <br />
-          electrical and solar needs—reliable, efficient, and sustainable for <br />
+          TVK Electrical and Solar Services: Your one-stop solution for all{" "}
+          <br />
+          electrical and solar needs—reliable, efficient, and sustainable for{" "}
+          <br />
           your home and business.
         </p>
         <Link

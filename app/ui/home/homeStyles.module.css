@@ -1,0 +1,12 @@
+.itemsImg {
+  padding: 30px 10px;
+  background: #fff;
+  scroll-snap-align: start;
+}
+
+@media only screen and (min-width:768px) {
+  .itemsImg {
+    background: transparent;
+    padding: 0;
+  }
+}
