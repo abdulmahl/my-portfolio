@@ -1,9 +1,11 @@
 import Image from "next/image";
-import image1 from "../../../public/company-services-1.jpeg";
-import image2 from "../../../public/company-services-2.jpeg";
-import image3 from "../../../public/company-services-4.jpeg";
-import image4 from "../../../public/company-services-3.png";
-import image5 from "../../../public/company-services-5.jpeg";
+import image1 from "../../../public/company-1.jpeg";
+import image2 from "../../../public/company-2.jpeg";
+import image3 from "../../../public/company-3.jpeg";
+import image4 from "../../../public/company-4.jpeg";
+import image5 from "../../../public/company-5.jpeg";
+import image6 from "../../../public/company-6.jpeg";
+
 import itemsStyles from "./homeStyles.module.css";
 
 export default function CompanyServicesImages() {
@@ -45,6 +47,13 @@ export default function CompanyServicesImages() {
         width={250}
         height={"auto"}
         className={`${itemsStyles.itemsImg} rounded-[40%60%53%47%/68%53%47%32%] md:w-[200px]`}
+      />
+      <Image
+        src={image6}
+        alt="Comapany Services"
+        width={250}
+        height={"auto"}
+        className={`${itemsStyles.itemsImg} rounded-[65%35%60%40%/45%58%42%55%] md:w-[200px]`}
       />
     </div>
   );
