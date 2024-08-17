@@ -22,19 +22,19 @@ export default function HeroSection() {
               "md:hidden lg:hidden text-sm text-sky-100 pb-[25px] lg:text-lg"
             }
           >
-            Welcome to my portfolio! I'm a Full-Stack Developer with a passion
+            Welcome to my portfolio! I&apos;m a Full-Stack Developer with a passion
             for creating innovative and efficient solutions. Explore my
-            projects, learn more about my skills, and feel free to reach out if
-            you'd like to collaborate.
+            projects&lsquo; learn more about my skills&lsquo; and feel free to reach out if
+            you&apos;d like to collaborate.
           </p>
 
           <p
             className={"hidden lg:hidden md:block md:text-sky-100 md:pb-[15px]"}
           >
-            Welcome to my portfolio! I'm a Full-Stack Developer with a passion
+            Welcome to my portfolio! I&apos;m a Full-Stack Developer with a passion
             for creating innovative and efficient solutions. Explore my
-            projects, learn more about my skills, and feel free to reach out if
-            you'd like to collaborate.
+            projects&lsquo; learn more about my skills&lsquo; and feel free to reach out if
+            you&apos;d like to collaborate.
           </p>
 
           <p
@@ -42,10 +42,10 @@ export default function HeroSection() {
               "hidden md:hidden lg:block text-sky-100 pb-[30px] lg:text-lg"
             }
           >
-            Welcome to my portfolio! I'm a Full-Stack Developer with a passion
+            Welcome to my portfolio! I&apos;m a Full-Stack Developer with a passion
             for creating innovative and efficient solutions. Explore my
-            projects, learn more about my skills, and feel free to reach out if
-            you'd like to collaborate.
+            projects&lsquo; learn more about my skills&lsquo; and feel free to reach out if
+            you&apos;d like to collaborate.
           </p>
           <div className="flex gap-5 items-center">
             <Link
