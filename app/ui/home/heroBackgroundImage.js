@@ -1,7 +1,6 @@
 import React from "react";
-import heroImageMobileSmall from "../../../public/tvk-hero-sm.jpeg";
-import heroImageMobileMedium from "../../../public/tvk-hero-md.png";
-import heroImageDesktop from "../../../public/tvk-hero-desktop.png";
+import heroImageMobileSmall from "../../../public/myImage.jpeg";
+
 import Image from "next/image";
 
 export default function HeroBackgroundImage() {

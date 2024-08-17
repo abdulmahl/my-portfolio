@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "TVK - Gallery",
+  title: "Abdul's - Gallery",
 };
 
 export default function GalleryLayout({ children }) {

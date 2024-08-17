@@ -7,27 +7,25 @@ import { MobileNav } from "./mobileNav";
 export default function Header() {
   return (
     <>
-      <header className="py-5 flex items-center justify-between border-b border-yellow-500 w-[95%] m-auto">
+      <header className="py-5 flex items-center justify-between border-b border-blue-900 w-[95%] m-auto">
         <Link href={"/"}>
-          <div className="flex items-center gap-1 text-yellow-500 text-lg font-bold leading-none md:text-xl md:leading-none lg:hidden">
+          <div className="flex items-center gap-1 text-sky-100 text-lg font-bold leading-none md:text-xl md:leading-none lg:hidden">
             <Image
-              src={"/tvk-company-logo.png"}
-              alt="TVK Solar & Electrical"
-              width={50}
-              height={50}
+              src={"/image.jpeg"}
+              alt="Abdul"
+              width={80}
+              height={80}
               className=""
             />
-            Solar & <br /> Electrical
           </div>
-          <div className="hidden lg:flex gap-2 items-center text-yellow-500 font-bold leading-none text-2xl">
+          <div className="hidden lg:flex gap-2 items-center text-sky-100 font-bold leading-none text-2xl">
             <Image
-              src={"/tvk-company-logo.png"}
-              alt="TVK Solar & Electrical"
-              width={65}
-              height={65}
+              src={"/image.jpeg"}
+              alt="Abdul"
+              width={130}
+              height={130}
               className=""
             />
-            Solar & <br /> Electrical
           </div>
         </Link>
         <DeskTopNav />

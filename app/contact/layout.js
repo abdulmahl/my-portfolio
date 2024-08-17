@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "TVK - Contact Us",
+  title: "Abdul's - Contact",
 };
 
 export default function ContactLayout({ children }) {

@@ -1,6 +1,6 @@
 
 export const metadata = {
-  title: "TVK - About Us",
+  title: "Abdul's - About",
 };
 
 export default function AboutLayout({ children }) {

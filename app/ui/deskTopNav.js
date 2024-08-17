@@ -18,8 +18,8 @@ export default function DeskTopNav() {
             <Link
               href={href}
               className={`flex items-center gap-1 ${
-                isActive ? `text-green-600 underline underline-offset-8` : `text-yellow-500`
-              } hover:text-green-300`}
+                isActive ? `text-sky-300 underline underline-offset-8` : `text-sky-100`
+              } hover:text-sky-300`}
             >
               {icon}
               {title}
