@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import image from "../../../public/image.jpeg";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function HeroSection() {
   return (
@@ -22,19 +23,19 @@ export default function HeroSection() {
               "md:hidden lg:hidden text-sm text-sky-100 pb-[25px] lg:text-lg"
             }
           >
-            Welcome to my portfolio! I&apos;m a Full-Stack Developer with a passion
-            for creating innovative and efficient solutions. Explore my
-            projects&lsquo; learn more about my skills&lsquo; and feel free to reach out if
-            you&apos;d like to collaborate.
+            Welcome to my portfolio! I&apos;m a Full-Stack Developer with a
+            passion for creating innovative and efficient solutions. Explore my
+            projects&lsquo; learn more about my skills&lsquo; and feel free to
+            reach out if you&apos;d like to collaborate.
           </p>
 
           <p
             className={"hidden lg:hidden md:block md:text-sky-100 md:pb-[15px]"}
           >
-            Welcome to my portfolio! I&apos;m a Full-Stack Developer with a passion
-            for creating innovative and efficient solutions. Explore my
-            projects&lsquo; learn more about my skills&lsquo; and feel free to reach out if
-            you&apos;d like to collaborate.
+            Welcome to my portfolio! I&apos;m a Full-Stack Developer with a
+            passion for creating innovative and efficient solutions. Explore my
+            projects&lsquo; learn more about my skills&lsquo; and feel free to
+            reach out if you&apos;d like to collaborate.
           </p>
 
           <p
@@ -42,24 +43,25 @@ export default function HeroSection() {
               "hidden md:hidden lg:block text-sky-100 pb-[30px] lg:text-lg"
             }
           >
-            Welcome to my portfolio! I&apos;m a Full-Stack Developer with a passion
-            for creating innovative and efficient solutions. Explore my
-            projects&lsquo; learn more about my skills&lsquo; and feel free to reach out if
-            you&apos;d like to collaborate.
+            Welcome to my portfolio! I&apos;m a Full-Stack Developer with a
+            passion for creating innovative and efficient solutions. Explore my
+            projects&lsquo; learn more about my skills&lsquo; and feel free to
+            reach out if you&apos;d like to collaborate.
           </p>
           <div className="flex gap-5 items-center">
-            <Link
-              href="#projects"
-              className={`flex justify-center w-[130px] lg:w-[150px] text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
+            <div
+              className={`flex justify-center items-center gap-3 w-[170px] lg:w-[190px] text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
             >
-              See My Work
-            </Link>
-            <Link
-              href="/contact"
-              className={`flex justify-center w-[130px] lg:w-[150px] text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
+              <Link href="#projects">See My Work</Link>
+              <FaArrowRight />
+            </div>
+
+            <div
+              className={`flex justify-center items-center gap-3 w-[170px] lg:w-[190px] text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
             >
-              Get In Touch
-            </Link>
+              <Link href="/contact">Get In Touch</Link>
+              <FaArrowRight />
+            </div>
           </div>
         </div>
         <Image
