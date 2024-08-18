@@ -1,14 +1,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import image from "../../../public/image.jpeg";
+import image from "../../public/image.jpeg";
 import { FaArrowRight } from "react-icons/fa";
 
 export default function HeroSection() {
   return (
     <>
-      <section
-        className={`p-3 flex flex-col gap-5 md:flex-row md:items-center md:justify-between lg:justify-between md:p-5 lg:px-10`}
+      <section id="home"
+        className={`p-3 pt-[110px] flex flex-col gap-5 md:flex-row md:items-center md:justify-between lg:justify-between md:p-5 md:pt-[110px] lg:pt-[140px] lg:p-10`}
       >
         <div className="md:w-[50%] lg:w-[50%]">
           <h1
@@ -59,7 +59,7 @@ export default function HeroSection() {
             <div
               className={`flex justify-center items-center gap-3 w-[170px] lg:w-[190px] text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
             >
-              <Link href="/contact">Get In Touch</Link>
+              <Link href="#contact">Get In Touch</Link>
               <FaArrowRight />
             </div>
           </div>
@@ -68,7 +68,7 @@ export default function HeroSection() {
           src={image}
           width={500}
           height={0}
-          alt="Abdul"
+          alt="Hero"
           className="m-auto md:w-[50%]"
         />
       </section>
