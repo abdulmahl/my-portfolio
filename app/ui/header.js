@@ -11,20 +11,20 @@ export default function Header() {
         <Link href={"#home"}>
           <div className="flex items-center gap-1 text-sky-100 text-lg font-bold leading-none md:text-xl md:leading-none lg:hidden">
             <Image
-              src={"/image.jpeg"}
+              src={"/logo.jpg"}
               alt="Abdul"
-              width={80}
-              height={80}
-              className=""
+              width={40}
+              height={40}
+              className="rounded-full"
             />
           </div>
           <div className="hidden lg:flex gap-2 items-center text-sky-100 font-bold leading-none text-2xl">
             <Image
-              src={"/image.jpeg"}
+              src={"/logo.jpg"}
               alt="Abdul"
-              width={130}
-              height={130}
-              className=""
+              width={60}
+              height={60}
+              className="rounded-full"
             />
           </div>
         </Link>

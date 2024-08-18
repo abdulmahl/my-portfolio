@@ -1,14 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import image from "../../public/image.jpeg";
+import image from "../../public/image2.webp";
 import { FaArrowRight } from "react-icons/fa";
 
 export default function HeroSection() {
   return (
     <>
-      <section id="home"
-        className={`p-3 pt-[110px] flex flex-col gap-5 md:flex-row md:items-center md:justify-between lg:justify-between md:p-5 md:pt-[110px] lg:pt-[140px] lg:p-10`}
+      <section
+        id="home"
+        className={`p-3 pt-[90px] flex flex-col gap-5 md:flex-row md:items-center md:justify-between lg:justify-between md:p-5 md:pt-[110px] lg:pt-[140px] lg:p-10`}
       >
         <div className="md:w-[50%] lg:w-[50%]">
           <h1
@@ -66,10 +67,25 @@ export default function HeroSection() {
         </div>
         <Image
           src={image}
+          width={400}
+          height={0}
+          alt="Hero"
+          className="md:hidden m-auto md:w-[50%] rounded-[23%88%12%13%/77%55%17%33%]"
+        />
+        <Image
+          src={image}
+          width={300}
+          height={0}
+          alt="Hero"
+          className="hidden md:block lg:hidden m-auto md:w-[50%] rounded-[23%88%12%13%/77%55%17%33%]"
+        />
+
+        <Image
+          src={image}
           width={500}
           height={0}
           alt="Hero"
-          className="m-auto md:w-[50%]"
+          className="hidden md:hidden mt-10 lg:block md:w-[30%] m-auto rounded-[23%88%12%13%/77%55%17%33%]"
         />
       </section>
     </>

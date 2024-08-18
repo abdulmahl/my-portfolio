@@ -9,9 +9,9 @@ export default function MyProjects() {
   return (
     <section
       id="projects"
-      className="p-3 pt-[110px] md:p-5 lg:p-10 md:pt-[130px] lg:pt-[220px] lg:p-10"
+      className="p-3 pt-[95px] md:p-5 lg:p-10 md:pt-[110px] lg:pt-[170px] lg:p-10"
     >
-      <h1 className="text-[1.7rem] text-sky-300 font-semibold pb-[30px] md:text-3xl lg:pb-[25px] lg:text-5xl">
+      <h1 className="text-[1.7rem] text-sky-300 font-semibold pb-[30px] md:text-3xl lg:pb-[55px] lg:text-5xl">
         My Projects
       </h1>
       <div className="text-sky-100 px-3 grid gri gap-8 md:grid md:grid-cols-3 md:px-5 lg:place-items-center">
@@ -31,7 +31,7 @@ export default function MyProjects() {
             className="hidden md:block"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">
+            <h3 className="text-xl font-semibold mb-2 text-nowrap">
               Fullstack Development
             </h3>
             <Link
@@ -63,7 +63,7 @@ export default function MyProjects() {
             className="hidden md:block"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">
+            <h3 className="text-xl font-semibold mb-2 text-nowrap">
               Fullstack Development
             </h3>
             <Link
@@ -149,7 +149,9 @@ export default function MyProjects() {
             className="hidden md:block"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">Frontend Development</h3>
+            <h3 className="text-xl font-semibold mb-2 text-nowrap">
+              Frontend Development
+            </h3>
             <Link
               href={"https://github.com/Janalovelock/teame"}
               target="_blank"
