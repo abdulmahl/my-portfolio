@@ -3,7 +3,7 @@ import Footer from "./ui/footer";
 import HeroSection from "./ui/heroSection";
 import MySkills from "./ui/mySkills";
 import MyProjects from "./ui/myProjects";
-import PartnersSectin from "./ui/contact";
+import ContactSection from "./ui/contact";
 import AboutMe from "./ui/about";
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
         <AboutMe />
         <MySkills />
         <MyProjects />
-        <PartnersSectin />
+        <ContactSection />
       </main>
       <Footer />
     </>

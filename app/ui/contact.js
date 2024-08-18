@@ -10,7 +10,7 @@ import {
   UserIcon,
 } from "@heroicons/react/24/outline";
 
-export default function ContactForm() {
+export default function ContactSection() {
   return (
     <section
       id="contact"
