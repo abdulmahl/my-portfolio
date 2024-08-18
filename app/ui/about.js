@@ -1,4 +1,4 @@
-import image from "../../public/image1.webp";
+import image from "../../public/image3.jpg";
 import Image from "next/image";
 
 export default function AboutMe() {
