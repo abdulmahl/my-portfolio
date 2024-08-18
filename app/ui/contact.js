@@ -13,7 +13,7 @@ export default function PartnersSectin() {
       <p className="mt-8 text-sky-100">
         Interested in my work?{" "}
         <Link
-          href="/contact"
+          href="tel:0769001909"
           className="text-sky-300 hover:underline underline-offset-4"
         >
           Get in touch.
