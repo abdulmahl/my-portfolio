@@ -26,7 +26,7 @@ export default function HeroSection() {
           >
             Welcome to my portfolio! I&apos;m a Full-Stack Developer with a
             passion for creating innovative and efficient solutions. Explore my
-            projects&lsquo; learn more about my skills&lsquo; and feel free to
+            projects learn more about my skills and feel free to
             reach out if you&apos;d like to collaborate.
           </p>
 
@@ -35,7 +35,7 @@ export default function HeroSection() {
           >
             Welcome to my portfolio! I&apos;m a Full-Stack Developer with a
             passion for creating innovative and efficient solutions. Explore my
-            projects&lsquo; learn more about my skills&lsquo; and feel free to
+            projects learn more about my skills and feel free to
             reach out if you&apos;d like to collaborate.
           </p>
 
@@ -46,7 +46,7 @@ export default function HeroSection() {
           >
             Welcome to my portfolio! I&apos;m a Full-Stack Developer with a
             passion for creating innovative and efficient solutions. Explore my
-            projects&lsquo; learn more about my skills&lsquo; and feel free to
+            projects learn more about my skills and feel free to
             reach out if you&apos;d like to collaborate.
           </p>
           <div className="flex gap-5 items-center">

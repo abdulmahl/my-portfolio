@@ -37,18 +37,18 @@ export default function AboutMe() {
         </h2>
         <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
           Hello there my name is Abdul! I&apos;m a third-year student at Brigham
-          Young University&lsquo; pursuing a major in Software Development.
-          Currently employed at Eragateway&lsquo; I am a full-stack developer
+          Young University pursuing a major in Software Development.
+          Currently employed at Eragateway I am a full-stack developer
           intern.
         </p>
         <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
           My journey at BYU has equipped me with the skills and knowledge
           necessary to tackle real-world challenges in the tech industry. I am
-          passionate about coding and problem-solving&lsquo; and I&apos;m eager
+          passionate about coding and problem-solving and I&apos;m eager
           to contribute my skills to innovative projects. With a strong
           foundation in web development and a drive to continuously learn and
-          grow&lsquo; I&apos;m ready to embark on an exciting career path in
-          software development.
+          grow I&apos;m ready to embark on an exciting career path in
+          web and software development.
         </p>
       </div>
     </section>
