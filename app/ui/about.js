@@ -32,9 +32,9 @@ export default function AboutMe() {
       />
 
       <div className="flex flex-col md:w-[50%]">
-        <h1 className="text-[1.7rem] text-sky-300 font-semibold pb-[1px] md:text-3xl lg:pb-[25px] lg:text-5xl">
+        <h2 className="text-[1.7rem] text-sky-300 font-semibold pb-[1px] md:text-3xl lg:pb-[25px] lg:text-5xl">
           About Me
-        </h1>
+        </h2>
         <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
           Hello there my name is Abdul! I&apos;m a third-year student at Brigham
           Young University&lsquo; pursuing a major in Software Development.

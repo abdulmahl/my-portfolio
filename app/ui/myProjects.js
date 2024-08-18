@@ -11,9 +11,9 @@ export default function MyProjects() {
       id="projects"
       className="p-3 pt-[95px] md:p-5 lg:p-10 md:pt-[110px] lg:pt-[170px] lg:p-10"
     >
-      <h1 className="text-[1.7rem] text-sky-300 font-semibold pb-[30px] md:text-3xl lg:pb-[55px] lg:text-5xl">
+      <h2 className="text-[1.7rem] text-sky-300 font-semibold pb-[30px] md:text-3xl lg:pb-[55px] lg:text-5xl">
         My Projects
-      </h1>
+      </h2>
       <div className="text-sky-100 grid gap-4 md:grid md:grid-cols-3 lg:place-items-center">
         <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
           <Image

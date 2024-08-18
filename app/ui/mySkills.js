@@ -15,9 +15,9 @@ export default function MySkills() {
       id="skills"
       className="p-3 md:p-5 pt-[95px] md:pt-[110px] lg:pt-[170px] lg:p-10"
     >
-      <h1 className="text-[1.7rem] text-sky-300 font-semibold pb-[1px] md:text-3xl lg:pb-[25px] lg:text-5xl">
+      <h2 className="text-[1.7rem] text-sky-300 font-semibold pb-[1px] md:text-3xl lg:pb-[25px] lg:text-5xl">
         My Skills
-      </h1>
+      </h2>
       <div className="text-sky-100 px-3 grid gri gap-8 md:grid md:grid-cols-3 md:px-5 lg:place-items-center">
         <div className="flex flex-col items-center bg-gray-900 p-10 w-[350px] md:w-[230px] lg:w-[350px] my-5">
           <h3 className="md:hidden">Web Development</h3>
