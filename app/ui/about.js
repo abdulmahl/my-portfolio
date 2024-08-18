@@ -37,12 +37,12 @@ export default function AboutMe() {
         </h2>
         <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
           Hello there my name is Abdul! I&apos;m a third-year student at Brigham
-          Young University pursuing a major in Software Development.
+          Young University Idaho pursuing a major in Software Development.
           Currently employed at Eragateway as a full-stack developer
           intern.
         </p>
         <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
-          My journey at BYU has equipped me with the skills and knowledge
+          My journey at BYU-Idaho has equipped me with the skills and knowledge
           necessary to tackle real-world challenges in the tech industry. I am
           passionate about coding and problem-solving and I&apos;m eager
           to contribute my skills to innovative projects. With a strong
