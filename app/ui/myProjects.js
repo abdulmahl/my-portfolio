@@ -31,7 +31,9 @@ export default function MyProjects() {
             className="hidden md:block"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">Next.Js Dashboard</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              Fullstack Development
+            </h3>
             <Link
               href={
                 "https://nextjs-dashboard-abduls-projects-7bfd8357.vercel.app/"
@@ -61,7 +63,9 @@ export default function MyProjects() {
             className="hidden md:block"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">Handcrafted Haven</h3>
+            <h3 className="text-xl font-semibold mb-2">
+              Fullstack Development
+            </h3>
             <Link
               href={"https://haven-handcrafted.vercel.app/"}
               target="_blank"
@@ -117,7 +121,7 @@ export default function MyProjects() {
             className="hidden md:block"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">PHP Motors</h3>
+            <h3 className="text-xl font-semibold mb-2">Backend Development</h3>
             <Link
               href={"https://github.com/abdulmahl/cse340"}
               target="_blank"
@@ -145,7 +149,7 @@ export default function MyProjects() {
             className="hidden md:block"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">Frontend Dev...</h3>
+            <h3 className="text-xl font-semibold mb-2">Frontend Development</h3>
             <Link
               href={"https://github.com/Janalovelock/teame"}
               target="_blank"
