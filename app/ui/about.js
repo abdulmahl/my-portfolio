@@ -38,7 +38,7 @@ export default function AboutMe() {
         <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
           Hello there my name is Abdul! I&apos;m a third-year student at Brigham
           Young University pursuing a major in Software Development.
-          Currently employed at Eragateway I am a full-stack developer
+          Currently employed at Eragateway as a full-stack developer
           intern.
         </p>
         <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
