@@ -9,17 +9,17 @@ export default function MyProjects() {
   return (
     <section
       id="projects"
-      className="p-3 md:p-5 lg:p-10 md:pt-[110px] lg:pt-[220px] lg:p-10"
+      className="p-3 pt-[110px] md:p-5 lg:p-10 md:pt-[130px] lg:pt-[220px] lg:p-10"
     >
       <h1 className="text-[1.7rem] text-sky-300 font-semibold pb-[30px] md:text-3xl lg:pb-[25px] lg:text-5xl">
         My Projects
       </h1>
-      <div className="text-sky-100 px-3 grid gap-8 md:grid md:grid-cols-3 md:px-5 lg:place-items-center">
-        <div className="flex items-center gap-3 md:flex-col md:items-start">
+      <div className="text-sky-100 px-3 grid gri gap-8 md:grid md:grid-cols-3 md:px-5 lg:place-items-center">
+        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
           <Image
             src={portfolio_1}
-            width={100}
-            height={100}
+            width={200}
+            height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden"
           />
@@ -39,17 +39,17 @@ export default function MyProjects() {
               target="_blank"
               className="flex items-center gap-2 hover:underline hover:underline-offset-8"
             >
-              Next.Js Tailwind Vercel
+              View Project
               <FaArrowRight />
             </Link>
           </div>
         </div>
 
-        <div className="flex items-center gap-3 md:flex-col md:items-start">
+        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
           <Image
             src={portfolio_2}
-            width={100}
-            height={100}
+            width={200}
+            height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden"
           />
@@ -67,17 +67,17 @@ export default function MyProjects() {
               target="_blank"
               className="flex items-center gap-2 hover:underline hover:underline-offset-8"
             >
-              Next.Js Tailwind Vercel
+              View Project
               <FaArrowRight />
             </Link>
           </div>
         </div>
 
-        <div className="flex items-center gap-3 md:flex-col md:items-start">
+        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
           <Image
             src={portfolio_1}
-            width={100}
-            height={100}
+            width={200}
+            height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden"
           />
@@ -101,11 +101,11 @@ export default function MyProjects() {
           </div>
         </div>
 
-        <div className="flex items-center gap-3 md:flex-col md:items-start">
+        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
           <Image
             src={portfolio_2}
-            width={100}
-            height={100}
+            width={200}
+            height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden"
           />
@@ -123,17 +123,17 @@ export default function MyProjects() {
               target="_blank"
               className="flex items-center gap-2 hover:underline hover:underline-offset-8"
             >
-              PHP CSS
+              View Project
               <FaArrowRight />
             </Link>
           </div>
         </div>
 
-        <div className="flex items-center gap-3 md:flex-col md:items-start">
+        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
           <Image
             src={portfolio_1}
-            width={100}
-            height={100}
+            width={200}
+            height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden"
           />
@@ -151,17 +151,17 @@ export default function MyProjects() {
               target="_blank"
               className="flex items-center gap-2 hover:underline hover:underline-offset-8"
             >
-              HTML CSS JavaScript
+              View Project
               <FaArrowRight />
             </Link>
           </div>
         </div>
 
-        <div className="flex items-center gap-3 md:flex-col md:items-start">
+        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
           <Image
             src={portfolio_2}
-            width={100}
-            height={100}
+            width={200}
+            height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden"
           />
@@ -179,7 +179,7 @@ export default function MyProjects() {
               target="_blank"
               className="flex items-center gap-2 hover:underline hover:underline-offset-8"
             >
-              HTML CSS
+              View Project
               <FaArrowRight />
             </Link>
           </div>
