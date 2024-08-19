@@ -25,14 +25,14 @@ export default function MyProjects() {
             width={200}
             height={200}
             alt="Portfolio"
-            className="md:hidden lg:hidden w-[350px]"
+            className="md:hidden lg:hidden w-[350px] rounded-2xl"
           />
           <Image
             src={portfolio_1}
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2 text-nowrap">
@@ -57,14 +57,14 @@ export default function MyProjects() {
             width={200}
             height={200}
             alt="Portfolio"
-            className="md:hidden lg:hidden w-[350px]"
+            className="md:hidden lg:hidden w-[350px] rounded-2xl"
           />
           <Image
             src={portfolio_2}
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2 text-nowrap">
@@ -87,14 +87,14 @@ export default function MyProjects() {
             width={200}
             height={200}
             alt="Portfolio"
-            className="md:hidden lg:hidden w-[350px]"
+            className="md:hidden lg:hidden w-[350px] rounded-2xl"
           />
           <Image
             src={portfolio_3}
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2">Web Services</h3>
@@ -115,14 +115,14 @@ export default function MyProjects() {
             width={200}
             height={200}
             alt="Portfolio"
-            className="md:hidden lg:hidden w-[350px]"
+            className="md:hidden lg:hidden w-[350px] rounded-2xl"
           />
           <Image
             src={portfolio_4}
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2">Backend Development</h3>
@@ -143,14 +143,14 @@ export default function MyProjects() {
             width={200}
             height={200}
             alt="Portfolio"
-            className="md:hidden lg:hidden w-[350px]"
+            className="md:hidden lg:hidden w-[350px] rounded-2xl"
           />
           <Image
             src={portfolio_5}
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2 text-nowrap">
@@ -173,14 +173,14 @@ export default function MyProjects() {
             width={200}
             height={200}
             alt="Portfolio"
-            className="md:hidden lg:hidden w-[350px]"
+            className="md:hidden lg:hidden w-[350px] rounded-2xl"
           />
           <Image
             src={portfolio_6}
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2">Web Fundamentals</h3>
