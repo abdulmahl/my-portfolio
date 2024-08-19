@@ -1,8 +1,12 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import portfolio_1 from "../../public/portfolio-1.png";
-import portfolio_2 from "../../public/portfolio-2.png";
+import portfolio_1 from "../../public/port-1.jpg";
+import portfolio_2 from "../../public/port-2.jpg";
+import portfolio_3 from "../../public/port-3.jpg";
+import portfolio_4 from "../../public/port-4.jpg";
+import portfolio_5 from "../../public/port-5.jpg";
+import portfolio_6 from "../../public/port-6.jpg";
 import { FaArrowRight } from "react-icons/fa";
 
 export default function MyProjects() {
@@ -14,8 +18,8 @@ export default function MyProjects() {
       <h2 className="text-[1.7rem] text-sky-300 font-semibold pb-[30px] md:text-3xl lg:pb-[55px] lg:text-5xl">
         My Projects
       </h2>
-      <div className="text-sky-100 grid gap-4 md:grid md:grid-cols-3 lg:place-items-center">
-        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
+      <div className="text-sky-100 grid gap-20 md:grid md:grid-cols-2 lg:grid-cols-3 lg:place-items-center">
+        <div className="flex flex-col items-start m-auto gap-3">
           <Image
             src={portfolio_1}
             width={200}
@@ -28,7 +32,7 @@ export default function MyProjects() {
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block w-[330px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px]"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2 text-nowrap">
@@ -47,7 +51,7 @@ export default function MyProjects() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
+        <div className="flex flex-col items-start m-auto gap-3">
           <Image
             src={portfolio_2}
             width={200}
@@ -60,7 +64,7 @@ export default function MyProjects() {
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block w-[330px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px]"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2 text-nowrap">
@@ -77,20 +81,20 @@ export default function MyProjects() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
+        <div className="flex flex-col items-start m-auto gap-3">
           <Image
-            src={portfolio_1}
+            src={portfolio_3}
             width={200}
             height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden w-[350px]"
           />
           <Image
-            src={portfolio_1}
+            src={portfolio_3}
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block w-[330px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px]"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2">Web Services</h3>
@@ -99,26 +103,26 @@ export default function MyProjects() {
               target="_blank"
               className="flex items-center gap-2 hover:underline hover:underline-offset-8"
             >
-              Node.Js MongoDB
+              View Project
               <FaArrowRight />
             </Link>
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
+        <div className="flex flex-col items-start m-auto gap-3">
           <Image
-            src={portfolio_2}
+            src={portfolio_4}
             width={200}
             height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden w-[350px]"
           />
           <Image
-            src={portfolio_2}
+            src={portfolio_4}
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block w-[330px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px]"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2">Backend Development</h3>
@@ -133,20 +137,20 @@ export default function MyProjects() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
+        <div className="flex flex-col items-start m-auto gap-3">
           <Image
-            src={portfolio_1}
+            src={portfolio_5}
             width={200}
             height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden w-[350px]"
           />
           <Image
-            src={portfolio_1}
+            src={portfolio_5}
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block w-[330px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px]"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2 text-nowrap">
@@ -163,20 +167,20 @@ export default function MyProjects() {
           </div>
         </div>
 
-        <div className="flex flex-col items-center gap-3 md:flex-col md:items-start">
+        <div className="flex flex-col items-start m-auto gap-3">
           <Image
-            src={portfolio_2}
+            src={portfolio_6}
             width={200}
             height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden w-[350px]"
           />
           <Image
-            src={portfolio_2}
+            src={portfolio_6}
             width={200}
             height={200}
             alt="Portfolio"
-            className="hidden md:block w-[330px] lg:w-[350px]"
+            className="hidden md:block md:w-[270px] lg:w-[350px]"
           />
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2">Web Fundamentals</h3>
