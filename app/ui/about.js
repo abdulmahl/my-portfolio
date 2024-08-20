@@ -1,4 +1,4 @@
-import image from "../../public/image-3.jpg";
+import image from "../../public/image4.jpg";
 import Image from "next/image";
 
 export default function AboutMe() {
@@ -12,7 +12,7 @@ export default function AboutMe() {
         width={500}
         height={0}
         alt="About"
-        className="m-auto md:hidden md:w-[50%] rounded-[88%91%14%33%/88%55%19%88%]"
+        className="m-auto md:hidden md:w-[50%] rounded-[77%55%17%33%/23%88%12%13%]"
       />
 
       <Image
@@ -20,7 +20,7 @@ export default function AboutMe() {
         width={300}
         height={0}
         alt="About"
-        className="hidden md:block lg:hidden m-auto md:w-[50%] rounded-[88%91%14%33%/88%55%19%88%]"
+        className="hidden md:block lg:hidden m-auto md:w-[50%] rounded-[77%55%17%33%/23%88%12%13%]"
       />
 
       <Image
@@ -28,7 +28,7 @@ export default function AboutMe() {
         width={400}
         height={0}
         alt="About"
-        className="hidden md:hidden mt-10 lg:block m-auto md:w-[30%] rounded-[88%91%14%33%/88%55%19%88%]"
+        className="hidden md:hidden mt-10 lg:block m-auto md:w-[30%] rounded-[77%55%17%33%/23%88%12%13%]"
       />
 
       <div className="flex flex-col md:w-[50%]">
