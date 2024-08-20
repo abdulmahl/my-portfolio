@@ -1,4 +1,4 @@
-import image from "../../public/image3.jpg";
+import image from "../../public/image-3.jpg";
 import Image from "next/image";
 
 export default function AboutMe() {
@@ -38,17 +38,16 @@ export default function AboutMe() {
         <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
           Hello there my name is Abdul! I&apos;m a third-year student at Brigham
           Young University Idaho pursuing a major in Software Development.
-          Currently employed at Eragateway as a full-stack developer
-          intern.
+          Currently employed at Eragateway as a full-stack developer intern.
         </p>
         <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
           My journey at BYU-Idaho has equipped me with the skills and knowledge
           necessary to tackle real-world challenges in the tech industry. I am
-          passionate about coding and problem-solving and I&apos;m eager
-          to contribute my skills to innovative projects. With a strong
-          foundation in web development and a drive to continuously learn and
-          grow I&apos;m ready to embark on an exciting career path in
-          web and software development.
+          passionate about coding and problem-solving and I&apos;m eager to
+          contribute my skills to innovative projects. With a strong foundation
+          in web development and a drive to continuously learn and grow I&apos;m
+          ready to embark on an exciting career path in web and software
+          development.
         </p>
       </div>
     </section>

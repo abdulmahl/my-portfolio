@@ -3,6 +3,7 @@ import Image from "next/image";
 import DeskTopNav from "./deskTopNav";
 import Link from "next/link";
 import { MobileNav } from "./mobileNav";
+import logo from "../../public/image.jpeg";
 
 export default function Header() {
   return (
@@ -11,20 +12,20 @@ export default function Header() {
         <Link href={"#home"}>
           <div className="flex items-center gap-1 text-sky-100 text-lg font-bold leading-none md:text-xl md:leading-none lg:hidden">
             <Image
-              src={"/logo.jpg"}
+              src={logo}
               alt="Abdul"
-              width={40}
-              height={40}
-              className="rounded-full"
+              width={60}
+              height={60}
+              className="rounded-full hover:border border-blue-900"
             />
           </div>
           <div className="hidden lg:flex gap-2 items-center text-sky-100 font-bold leading-none text-2xl">
             <Image
-              src={"/logo.jpg"}
+              src={logo}
               alt="Abdul"
-              width={60}
-              height={60}
-              className="rounded-full"
+              width={110}
+              height={110}
+              className="rounded-full hover:border border-blue-900"
             />
           </div>
         </Link>

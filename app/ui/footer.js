@@ -13,24 +13,34 @@ export default function Footer() {
         Mduduzi A. Mahlangu - All Right Reserved
       </p>
       <div className="flex gap-3">
-        <Link href={"https://wa.me/0769001909"} target="_blaket">
+        <Link
+          href={"https://wa.me/0769001909"}
+          target="_blaket"
+          className="hover:text-blue-400"
+        >
           <FaWhatsapp size={25} />
         </Link>
 
         <Link
           href={"https://www.linkedin.com/in/abdul-mahlangu/"}
           target="_blank"
+          className="hover:text-blue-400"
         >
           <FaLinkedin size={25} />
         </Link>
 
-        <Link href={"https://www.tiktok.com/@m_abdul87"} target="_blank">
+        <Link
+          href={"https://www.tiktok.com/@m_abdul87"}
+          target="_blank"
+          className="hover:text-blue-400"
+        >
           <FaTiktok size={25} />
         </Link>
 
         <Link
           href={"https://web.facebook.com/mduduziabdul.Mahlangu.7"}
           target="_blank"
+          className="hover:text-blue-400"
         >
           <FaFacebook size={25} />
         </Link>
