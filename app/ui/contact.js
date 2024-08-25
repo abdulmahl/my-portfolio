@@ -31,7 +31,7 @@ export default function ContactSection() {
         >
           <UserIcon className="pointer-events-none relative top-7 left-3 h-[18px] w-[18px] text-gray-900" />
           <input
-            className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-900"
+            className="peer block w-full rounded-xl border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-900"
             id="firstname"
             type="firstname"
             name="firstname"
@@ -47,7 +47,7 @@ export default function ContactSection() {
           Lastname
           <UserIcon className="pointer-events-none relative top-9 left-3 h-[18px] w-[18px] -translate-y-1/2 text-gray-900" />
           <input
-            className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-900"
+            className="peer block w-full rounded-xl border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-900"
             id="lastname"
             type="lastname"
             name="lastname"
@@ -63,7 +63,7 @@ export default function ContactSection() {
           Email
           <AtSymbolIcon className="pointer-events-none relative top-[38px] left-3 h-[18px] w-[18px] -translate-y-1/2 text-gray-900" />
           <input
-            className="peer block w-full rounded-md border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-900"
+            className="peer block w-full rounded-xl border border-gray-200 py-[9px] pl-10 text-sm outline-2 placeholder:text-gray-900"
             id="email"
             type="email"
             name="email"
@@ -80,7 +80,7 @@ export default function ContactSection() {
             Message
             <DocumentTextIcon className="pointer-events-none relative top-9 left-3 h-[18px] w-[18px] -translate-y-1/2 text-gray-900" />
             <textarea
-              className="peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2 placeholder:text-gray-900 resize-none"
+              className="peer block w-full rounded-xl border border-gray-200 py-2 pl-10 text-sm outline-2 placeholder:text-gray-900 resize-none"
               id="message"
               name="message"
               placeholder="Type your message here"
@@ -91,7 +91,7 @@ export default function ContactSection() {
         </div>
 
         <div
-          className={`mt-5 w-[360px] flex justify-start items-center gap-3 text-md text-sky-100 bg-blue-800 p-3 rounded-lg hover:bg-blue-900 lg:text-lg`}
+          className={`mt-5 w-[360px] flex justify-start items-center gap-3 text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
         >
           <Link href="#contact">Send Message</Link>
           <FaArrowRight />
