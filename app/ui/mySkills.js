@@ -13,7 +13,7 @@ export default function MySkills() {
   return (
     <section
       id="skills"
-      className="p-3 md:p-5 pt-[100px] md:pt-[180px] lg:pt-[260px] lg:p-10"
+      className="p-3 md:p-5 pt-[100px] md:pt-[130px] lg:pt-[200px] lg:p-10"
     >
       <h2 className="text-[1.7rem] text-sky-300 font-semibold pb-[1px] md:text-3xl lg:pb-[25px] lg:text-5xl">
         My Skills

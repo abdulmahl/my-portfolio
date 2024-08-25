@@ -9,7 +9,7 @@ export default function HeroSection() {
     <>
       <section
         id="home"
-        className={`p-3 pt-[100px] flex flex-col gap-5 md:flex-row md:items-center md:justify-between lg:justify-between md:p-5 md:pt-[180px] lg:pt-[260px] lg:p-10`}
+        className={`p-3 pt-[100px] flex flex-col gap-5 md:flex-row md:items-center md:justify-between lg:justify-between md:p-5 md:pt-[130px] lg:pt-[200px] lg:p-10`}
       >
         <div className="md:w-[50%]">
           <h1

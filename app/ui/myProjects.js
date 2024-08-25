@@ -13,7 +13,7 @@ export default function MyProjects() {
   return (
     <section
       id="projects"
-      className="p-3 pt-[100px] md:p-5 lg:p-10 md:pt-[180px] lg:pt-[260px] lg:p-10"
+      className="p-3 pt-[100px] md:p-5 lg:p-10 md:pt-[130px] lg:pt-[200px] lg:p-10"
     >
       <h2 className="text-[1.7rem] text-sky-300 font-semibold pb-[30px] md:text-3xl lg:pb-[55px] lg:text-5xl">
         My Projects

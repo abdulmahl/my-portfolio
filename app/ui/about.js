@@ -5,7 +5,7 @@ export default function AboutMe() {
   return (
     <section
       id="about"
-      className="p-3 pt-[100px] flex flex-col-reverse gap-5 md:flex-row md:justify-between md:p-5 md:pt-[180px] lg:pt-[260px] lg:p-10"
+      className="p-3 pt-[100px] flex flex-col-reverse gap-5 md:flex-row md:justify-between md:p-5 md:pt-[130px] lg:pt-[200px] lg:p-10"
     >
       <Image
         src={image}
