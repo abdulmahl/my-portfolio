@@ -99,7 +99,7 @@ export default function MyProjects() {
           <div className="flex flex-col">
             <h3 className="text-xl font-semibold mb-2">Web Services</h3>
             <Link
-              href={"https://final-project-qesp.onrender.com/"}
+              href={"https://basketball-players-api.onrender.com/api-docs"}
               target="_blank"
               className="flex items-center gap-2 hover:underline hover:underline-offset-8"
             >
