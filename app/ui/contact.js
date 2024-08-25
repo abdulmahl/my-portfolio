@@ -1,16 +1,21 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import {
   AtSymbolIcon,
   DocumentTextIcon,
   UserIcon,
+  ArrowUpCircleIcon,
 } from "@heroicons/react/24/outline";
 
 export default function ContactSection() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <section
       id="contact"
@@ -93,15 +98,21 @@ export default function ContactSection() {
         </div>
       </form>
 
-      <p className="mt-8 mb-3 px-3 text-center md:px-5 lg:px-10 text-sky-100">
-        Interested in my work?{" "}
-        <Link
-          href="tel:0769001909"
-          className="text-sky-300 hover:underline underline-offset-4"
-        >
-          Get in touch.
-        </Link>
-      </p>
+      <div className=" flex items-center justify-between mt-8 mb-3 px-3 md:px-5 lg:px-10 text-sky-100">
+        <p className="block text-center">
+          Interested in my work?{" "}
+          <Link
+            href="tel:0769001909"
+            className="text-sky-300 hover:underline underline-offset-4"
+          >
+            Get in touch.
+          </Link>
+        </p>
+        <ArrowUpCircleIcon
+          onClick={scrollToTop}
+          className="h-[30px] w-[30px] hover:text-sky-300 lg:h-[35px] lg:w-[35px]"
+        />
+      </div>
     </section>
   );
 }

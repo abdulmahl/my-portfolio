@@ -13,7 +13,7 @@ export const MobileNav = () => {
       <Hamburger toggled={isOpen} size={25} toggle={setOpen} />
       <div className="">
         {isOpen && (
-          <div className="fixed left-0 right-0 top-[78px] h-full z-50 shadow-4xl p-5 bg-neutral-900 border-b border-blue-900/20 md:top-[94px]">
+          <div className="fixed left-0 right-0 top-[77px] h-full z-50 shadow-4xl p-5 bg-neutral-900 border-b border-blue-900/20 md:top-[93px]">
             <ul className="grid gap-2">
               {routes.map((route) => {
                 const { icon } = route;
