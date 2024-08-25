@@ -3,7 +3,7 @@ import Image from "next/image";
 import DeskTopNav from "./deskTopNav";
 import Link from "next/link";
 import { MobileNav } from "./mobileNav";
-import logo from "../../public/image.jpeg";
+import logo from "../../public/logo.jpeg";
 
 export default function Header() {
   return (
@@ -14,17 +14,17 @@ export default function Header() {
             <Image
               src={logo}
               alt="Abdul"
-              width={60}
-              height={60}
-              className="rounded-full hover:border border-blue-900"
+              width={50}
+              height={50}
+              className="rounded-full hover:border border-blue-900 w-[40px]"
             />
           </div>
           <div className="hidden lg:flex gap-2 items-center text-sky-100 font-bold leading-none text-2xl">
             <Image
               src={logo}
               alt="Abdul"
-              width={110}
-              height={110}
+              width={50}
+              height={50}
               className="rounded-full hover:border border-blue-900"
             />
           </div>

@@ -14,7 +14,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="p-3 pt-[90px] flex flex-col md:p-5 md:pt-[50px] lg:pt-[170px] lg:p-10"
+      className="p-3 pt-[100px] flex flex-col md:p-5 md:pt-[180px] lg:pt-[260px] lg:p-10"
     >
       <h2 className="text-[1.7rem] text-sky-300 font-semibold md:text-3xl lg:text-5xl">
         Get in touch
@@ -93,7 +93,7 @@ export default function ContactSection() {
         </div>
       </form>
 
-      <p className="mt-8 mb-3 px-3 md:px-5 lg:px-10 text-sky-100">
+      <p className="mt-8 mb-3 px-3 text-center md:px-5 lg:px-10 text-sky-100">
         Interested in my work?{" "}
         <Link
           href="tel:0769001909"

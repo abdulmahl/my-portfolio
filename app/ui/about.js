@@ -1,26 +1,26 @@
-import image from "../../public/image4.jpg";
+import image from "../../public/aboutImage1.jpg";
 import Image from "next/image";
 
 export default function AboutMe() {
   return (
     <section
       id="about"
-      className="p-3 pt-[90px] flex flex-col-reverse gap-5 md:flex-row md:items-center md:justify-between lg:justify-between md:p-5 md:pt-[110px] lg:pt-[140px] lg:p-10"
+      className="p-3 pt-[100px] flex flex-col-reverse gap-5 md:flex-row md:justify-between md:p-5 md:pt-[180px] lg:pt-[260px] lg:p-10"
     >
       <Image
         src={image}
         width={500}
         height={0}
         alt="About"
-        className="m-auto md:hidden md:w-[50%] rounded-[77%55%17%33%/23%88%12%13%]"
+        className="md:hidden rounded-xl"
       />
 
       <Image
         src={image}
         width={300}
-        height={0}
+        height={"auto"}
         alt="About"
-        className="hidden md:block lg:hidden m-auto md:w-[50%] rounded-[77%55%17%33%/23%88%12%13%]"
+        className="hidden md:block lg:hidden rounded-xl w-[50%]"
       />
 
       <Image
@@ -28,14 +28,14 @@ export default function AboutMe() {
         width={400}
         height={0}
         alt="About"
-        className="hidden md:hidden mt-10 lg:block m-auto md:w-[30%] rounded-[77%55%17%33%/23%88%12%13%]"
+        className="hidden md:hidden lg:block w-[45%] rounded-xl"
       />
 
       <div className="flex flex-col md:w-[50%]">
         <h2 className="text-[1.7rem] text-sky-300 font-semibold pb-[1px] md:text-3xl lg:pb-[25px] lg:text-5xl">
           About Me
         </h2>
-        <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
+        <p className="text-sm text-sky-100 pb-[10px] lg:text-lg">
           Hello there my name is Abdul! I&apos;m a third-year student at Brigham
           Young University Idaho pursuing a major in Software Development.
           Currently employed at Eragateway as a full-stack developer intern.

@@ -6,7 +6,7 @@ export default function Footer() {
   const year = new Date();
 
   return (
-    <footer className="py-5 w-[95%] m-auto flex flex-col gap-5 items-center justify-between text-sm border-t border-blue-900 text-sky-100 lg:flex-row lg:items-center lg:text-lg">
+    <footer className="py-5 w-[95%] flex flex-col gap-5 items-center justify-between text-sm border-t border-blue-900 text-sky-100 lg:text-lg">
       <p>
         &copy; <span>{year.getFullYear()}</span>
         {" - "}
@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="flex gap-3">
         <Link
           href={"https://wa.me/0769001909"}
-          target="_blaket"
+          target="_blank"
           className="hover:text-blue-400"
         >
           <FaWhatsapp size={25} />
