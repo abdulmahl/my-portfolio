@@ -6,25 +6,15 @@ import {
   AtSymbolIcon,
   DocumentTextIcon,
   UserIcon,
-  ArrowUpCircleIcon,
 } from "@heroicons/react/24/outline";
 
-export default function ContactSection() {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
+export default function ContactMePage() {
   return (
-    <section
-      id="contact"
-      className="p-3 pt-[100px] flex flex-col md:p-5 md:pt-[130px] lg:pt-[200px] lg:p-10"
-    >
-      <h2 className="text-[1.7rem] text-sky-300 font-semibold md:text-3xl lg:text-5xl">
+    <section className="p-3 pt-[80px] flex flex-col md:p-5 md:pt-[100px] lg:pt-[150px] lg:px-20">
+      <h2 className="text-[1.7rem] text-center text-sky-300 font-semibold md:text-3xl lg:text-5xl lg:text-left">
         Get in touch
       </h2>
-      <form className="text-gray-900 w-[360px] m-auto">
+      <form className="text-gray-900 w-[360px] md:m-auto lg:m-0">
         <label
           htmlFor="firstname"
           className="text-xs font-medium text-gray-900"
@@ -97,22 +87,6 @@ export default function ContactSection() {
           <FaArrowRight />
         </div>
       </form>
-
-      <div className=" flex items-center justify-between mt-8 mb-3 px-3 md:px-5 lg:px-10 text-sky-100">
-        <p className="block text-center">
-          Interested in my work?{" "}
-          <Link
-            href="tel:0769001909"
-            className="text-sky-300 hover:underline underline-offset-4"
-          >
-            Get in touch.
-          </Link>
-        </p>
-        <ArrowUpCircleIcon
-          onClick={scrollToTop}
-          className="h-[30px] w-[30px] hover:text-sky-300 lg:h-[35px] lg:w-[35px]"
-        />
-      </div>
     </section>
   );
 }

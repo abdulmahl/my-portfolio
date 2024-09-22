@@ -9,11 +9,11 @@ import {
 } from "react-icons/fa";
 import { HiDatabase } from "react-icons/hi";
 
-export default function MySkills() {
+export default function MySkillsPage() {
   return (
     <section
       id="skills"
-      className="p-3 md:p-5 pt-[100px] md:pt-[130px] lg:pt-[200px] lg:p-10"
+      className="p-3 md:p-5 pt-[80px] md:pt-[100px] lg:pt-[150px] lg:px-20"
     >
       <h2 className="text-[1.7rem] text-sky-300 font-semibold pb-[1px] md:text-3xl lg:pb-[25px] lg:text-5xl">
         My Skills

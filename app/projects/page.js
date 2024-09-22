@@ -9,11 +9,11 @@ import portfolio_5 from "../../public/port-5.jpg";
 import portfolio_6 from "../../public/port-6.jpg";
 import { FaArrowRight } from "react-icons/fa";
 
-export default function MyProjects() {
+export default function MyProjectsPage() {
   return (
     <section
       id="projects"
-      className="p-3 pt-[100px] md:p-5 lg:p-10 md:pt-[130px] lg:pt-[200px] lg:p-10"
+      className="p-3 pt-[80px] md:p-5 md:pt-[100px] lg:pt-[150px] lg:px-20"
     >
       <h2 className="text-[1.7rem] text-sky-300 font-semibold pb-[30px] md:text-3xl lg:pb-[55px] lg:text-5xl">
         My Projects

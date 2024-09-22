@@ -9,7 +9,7 @@ export const MobileNav = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div className="lg:hidden text-sky-300">
+    <div className="lg:hidden text-sky-300 hover:text-blue-600">
       <Hamburger toggled={isOpen} size={25} toggle={setOpen} />
       <div className="">
         {isOpen && (

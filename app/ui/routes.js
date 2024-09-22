@@ -3,7 +3,7 @@ import React from "react";
 export const routes = [
   {
     title: "Home",
-    href: "#home",
+    href: "/",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ export const routes = [
   },
   {
     title: "About",
-    href: "#about",
+    href: "/about",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export const routes = [
   },
   {
     title: "Skills",
-    href: "#skills",
+    href: "/skills",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ export const routes = [
   },
   {
     title: "Projects",
-    href: "#projects",
+    href: "/projects",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ export const routes = [
   },
   {
     title: "Contact",
-    href: "#contact",
+    href: "/contact",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -1,11 +1,11 @@
 import image from "../../public/aboutImage1.jpg";
 import Image from "next/image";
 
-export default function AboutMe() {
+export default function AboutMePage() {
   return (
     <section
       id="about"
-      className="p-3 pt-[100px] flex flex-col-reverse gap-5 md:flex-row md:justify-between md:p-5 md:pt-[130px] lg:pt-[200px] lg:p-10"
+      className="p-3 pt-[80px] flex flex-col-reverse gap-5 md:flex-row md:justify-between md:p-5 md:pt-[100px] lg:pt-[150px] lg:px-20"
     >
       <Image
         src={image}
@@ -40,7 +40,7 @@ export default function AboutMe() {
           Young University Idaho pursuing a major in Software Development.
           Currently employed at Eragateway as a full-stack developer intern.
         </p>
-        <p className="text-sm text-sky-100 pb-[25px] lg:text-lg">
+        <p className="text-sm text-sky-100 lg:text-lg">
           My journey at BYU-Idaho has equipped me with the skills and knowledge
           necessary to tackle real-world challenges in the tech industry. I am
           passionate about coding and problem-solving and I&apos;m eager to
