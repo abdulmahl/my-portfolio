@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 import {
   AtSymbolIcon,
@@ -80,12 +79,13 @@ export default function ContactMePage() {
           </label>
         </div>
 
-        <div
+        <button
+          type="submi"
           className={`mt-5 w-[360px] flex justify-start items-center gap-3 text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
         >
-          <Link href="#contact">Send Message</Link>
+          Send Message
           <FaArrowRight />
-        </div>
+        </button>
       </form>
     </section>
   );
