@@ -52,14 +52,14 @@ export default function HomePage() {
             <div
               className={`flex justify-center items-center gap-3 w-[170px] lg:w-[190px] text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
             >
-              <Link href="#projects">See My Work</Link>
+              <Link href="/projects">See My Work</Link>
               <FaArrowRight />
             </div>
 
             <div
               className={`flex justify-center items-center gap-3 w-[170px] lg:w-[190px] text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
             >
-              <Link href="#contact">Get In Touch</Link>
+              <Link href="/contact">Get In Touch</Link>
               <FaArrowRight />
             </div>
           </div>

@@ -9,11 +9,11 @@ export const MobileNav = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div className="lg:hidden text-sky-300 hover:text-blue-600">
+    <div className="lg:hidden text-sky-300 font-semibold">
       <Hamburger toggled={isOpen} size={25} toggle={setOpen} />
       <div className="">
         {isOpen && (
-          <div className="fixed left-0 right-0 top-[77px] h-full z-50 shadow-4xl p-5 bg-neutral-900 border-b border-blue-900/20 md:top-[93px]">
+          <div className="fixed left-0 right-0 top-[73px] h-full z-50 shadow-4xl p-5 bg-neutral-900 border-b border-blue-900/20 md:top-[89px]">
             <ul className="grid gap-2">
               {routes.map((route) => {
                 const { icon } = route;
@@ -25,7 +25,7 @@ export const MobileNav = () => {
                     <Link
                       onClick={() => setOpen((prev) => !prev)}
                       className={
-                        "flex items-center justify-between w-full p-5 rounded-xl bg-neutral-950"
+                        "flex items-center justify-between w-full p-5 rounded-xl bg-neutral-950 hover:text-blue-600"
                       }
                       href={route.href}
                     >
