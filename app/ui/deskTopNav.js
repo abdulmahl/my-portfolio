@@ -23,7 +23,7 @@ export default function DeskTopNav() {
                     ? "text-sky-300 underline underline-offset-8"
                     : "text-sky-100"
                 }
-                hover:text-sky-300 hover:underline hover:underline-offset-8`}
+                hover:text-sky-300`}
             >
               {icon}
               {title}

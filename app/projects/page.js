@@ -11,31 +11,24 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function MyProjectsPage() {
   return (
-    <section
-      id="projects"
-      className="p-3 pt-[80px] md:p-5 md:pt-[100px] lg:pt-[150px] lg:px-20"
-    >
-      <h2 className="text-[1.7rem] text-sky-300 font-semibold pb-[30px] md:text-3xl lg:pb-[55px] lg:text-5xl">
+    <section className="flex flex-col p-3 md:flex-row-reverse md:items-center md:justify-between md:p-5 pt-[80px] md:pt-[100px] lg:pt-[173px] lg:px-20">
+      <h2 className="text-[1.7rem] text-[#62777E] font-semibold pb-[30px] md:text-3xl lg:pb-[55px] lg:text-5xl">
         My Projects
       </h2>
-      <div className="text-sky-100 grid gap-20 md:grid md:grid-cols-2 lg:grid-cols-3 lg:place-items-center">
+      <div className="text-sky-100 grid gap-2 md:grid md:grid-cols-2">
         <div className="flex flex-col items-start m-auto gap-3">
           <Image
             src={portfolio_1}
-            width={200}
-            height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden w-[350px] rounded-2xl"
           />
           <Image
             src={portfolio_1}
-            width={200}
-            height={200}
             alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
+            className="hidden md:block md:w-[200px] lg:w-[250px] rounded-2xl"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2 text-nowrap">
+            <h3 className="text-md font-semibold mb-2 text-nowrap">
               Fullstack Development
             </h3>
             <Link
@@ -53,51 +46,17 @@ export default function MyProjectsPage() {
 
         <div className="flex flex-col items-start m-auto gap-3">
           <Image
-            src={portfolio_2}
-            width={200}
-            height={200}
-            alt="Portfolio"
-            className="md:hidden lg:hidden w-[350px] rounded-2xl"
-          />
-          <Image
-            src={portfolio_2}
-            width={200}
-            height={200}
-            alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
-          />
-          <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2 text-nowrap">
-              Fullstack Development
-            </h3>
-            <Link
-              href={"https://haven-handcrafted.vercel.app/"}
-              target="_blank"
-              className="flex items-center gap-2 hover:underline hover:underline-offset-8"
-            >
-              View Project
-              <FaArrowRight />
-            </Link>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-start m-auto gap-3">
-          <Image
             src={portfolio_3}
-            width={200}
-            height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden w-[350px] rounded-2xl"
           />
           <Image
             src={portfolio_3}
-            width={200}
-            height={200}
             alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
+            className="hidden md:block md:w-[200px] lg:w-[250px] rounded-2xl"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">Web Services</h3>
+            <h3 className="text-md font-semibold mb-2">Web Services</h3>
             <Link
               href={"https://basketball-players-api.onrender.com/api-docs"}
               target="_blank"
@@ -112,20 +71,16 @@ export default function MyProjectsPage() {
         <div className="flex flex-col items-start m-auto gap-3">
           <Image
             src={portfolio_4}
-            width={200}
-            height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden w-[350px] rounded-2xl"
           />
           <Image
             src={portfolio_4}
-            width={200}
-            height={200}
             alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
+            className="hidden md:block md:w-[200px] lg:w-[250px] rounded-2xl"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">Backend Development</h3>
+            <h3 className="text-md font-semibold mb-2">Backend Development</h3>
             <Link
               href={"https://github.com/abdulmahl/cse340"}
               target="_blank"
@@ -140,52 +95,20 @@ export default function MyProjectsPage() {
         <div className="flex flex-col items-start m-auto gap-3">
           <Image
             src={portfolio_5}
-            width={200}
-            height={200}
             alt="Portfolio"
             className="md:hidden lg:hidden w-[350px] rounded-2xl"
           />
           <Image
             src={portfolio_5}
-            width={200}
-            height={200}
             alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
+            className="hidden md:block md:w-[200px] lg:w-[250px] rounded-2xl"
           />
           <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2 text-nowrap">
+            <h3 className="text-md font-semibold mb-2 text-nowrap">
               Frontend Development
             </h3>
             <Link
               href={"https://github.com/Janalovelock/teame"}
-              target="_blank"
-              className="flex items-center gap-2 hover:underline hover:underline-offset-8"
-            >
-              View Project
-              <FaArrowRight />
-            </Link>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-start m-auto gap-3">
-          <Image
-            src={portfolio_6}
-            width={200}
-            height={200}
-            alt="Portfolio"
-            className="md:hidden lg:hidden w-[350px] rounded-2xl"
-          />
-          <Image
-            src={portfolio_6}
-            width={200}
-            height={200}
-            alt="Portfolio"
-            className="hidden md:block md:w-[270px] lg:w-[350px] rounded-2xl"
-          />
-          <div className="flex flex-col">
-            <h3 className="text-xl font-semibold mb-2">Web Fundamentals</h3>
-            <Link
-              href={"https://github.com/abdulmahl/wdd230"}
               target="_blank"
               className="flex items-center gap-2 hover:underline hover:underline-offset-8"
             >

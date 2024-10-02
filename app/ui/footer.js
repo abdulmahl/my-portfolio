@@ -5,7 +5,7 @@ export default function Footer() {
   const year = new Date();
 
   return (
-    <footer className="py-5 w-full flex flex-col gap-5 items-center justify-between text-sm border-t border-blue-900 text-sky-100 lg:text-lg relative">
+    <footer className="py-5 w-full flex flex-col gap-5 items-center justify-between text-sm border-t border-blue-900 text-sky-100 lg:text-lg lg:pt-20">
       <p>
         &copy; <span>{year.getFullYear()}</span>
         {" - "}Mduduzi A. Mahlangu - All Rights Reserved

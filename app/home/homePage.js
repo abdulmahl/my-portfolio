@@ -8,12 +8,12 @@ export default function HomePage() {
   return (
     <>
       <section
-        className={`p-3 pt-[80px] flex flex-col gap-5 items-center md:pt-[100px] md:flex-row lg:items-center lg:justify-between lg:px-20 lg:pt-[150px]`}
+        className={`p-3 pt-[80px] flex flex-col gap-5 items-center md:pt-[90px] md:p-0 md:px-3 md:flex-row lg:items-center lg:justify-between lg:px-20 lg:pt-[130px]`}
       >
         <div className="md:w-[50%]">
           <h1
             className={
-              "text-[1.7rem] text-sky-300 font-semibold pb-[1px] md:text-3xl lg:pb-[25px] lg:text-5xl"
+              "text-[1.7rem] text-[#62777E] font-semibold pb-[1px] md:text-3xl lg:pb-[25px] lg:text-5xl"
             }
           >
             M. Abdul Mahlangu
@@ -50,14 +50,14 @@ export default function HomePage() {
           </p>
           <div className="flex gap-5 items-center">
             <div
-              className={`flex justify-center items-center gap-3 w-[170px] lg:w-[190px] text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
+              className={`flex justify-center items-center gap-3 w-[170px] lg:w-[190px] text-md text-white font-medium bg-[#62777E] p-3 rounded-xl hover:bg-[#676D63] lg:text-lg`}
             >
               <Link href="/projects">See My Work</Link>
               <FaArrowRight />
             </div>
 
             <div
-              className={`flex justify-center items-center gap-3 w-[170px] lg:w-[190px] text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
+              className={`flex justify-center items-center gap-3 w-[170px] lg:w-[190px] text-md text-white font-medium bg-[#62777E] p-3 rounded-xl hover:bg-[#676D63] lg:text-lg`}
             >
               <Link href="/contact">Get In Touch</Link>
               <FaArrowRight />
@@ -73,18 +73,14 @@ export default function HomePage() {
         />
         <Image
           src={image}
-          width={300}
-          height={0}
           alt="Hero"
-          className="hidden md:block lg:hidden rounded-xl w-[50%]"
+          className="hidden md:block lg:hidden w-[50%] h-full object-contain"
         />
 
         <Image
           src={image}
-          width={400}
-          height={0}
           alt="Hero"
-          className="hidden md:hidden lg:block lg:w-[41%] rounded-xl"
+          className="hidden md:hidden lg:block lg:w-[50%]"
         />
       </section>
     </>

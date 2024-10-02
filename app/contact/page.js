@@ -6,14 +6,60 @@ import {
   DocumentTextIcon,
   UserIcon,
 } from "@heroicons/react/24/outline";
+import { useState } from "react";
 
 export default function ContactMePage() {
+  const [formData, setFormData] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (ev) => {
+    const { name, value } = ev.target;
+    setFormData((prevData) => ({ ...prevData, [name]: value }));
+  };
+
+  const submitHandler = async (ev) => {
+    ev.preventDefault();
+
+    try {
+      const response = await fetch("http://localhost:3000/message", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+      if (response.ok) {
+        alert(`Message sent successfully!`);
+        setFormData({
+          firstname: "",
+          lastname: "",
+          email: "",
+          message: "",
+        });
+      } else {
+        alert("Failed to send message: " + result.message);
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("An error occurred while sending the message.");
+    }
+  };
+
   return (
-    <section className="p-3 pt-[80px] flex flex-col md:p-5 md:pt-[100px] lg:pt-[150px] lg:px-20">
-      <h2 className="text-[1.7rem] text-center text-sky-300 font-semibold md:text-3xl lg:text-5xl lg:text-left">
+    <section className="flex flex-col p-3 md:flex-row-reverse md:items-center md:justify-between md:p-5 pt-[80px] md:pt-[100px] lg:pt-[173px] lg:px-20">
+      <h2 className="text-[1.7rem] text-center text-[#62777E] font-semibold md:text-3xl lg:text-5xl lg:text-left">
         Get in touch
       </h2>
-      <form className="text-gray-900 w-[360px] md:m-auto lg:m-0">
+      <form
+        onSubmit={submitHandler}
+        className="text-gray-900 w-[360px] md:m-auto lg:m-0"
+      >
         <label
           htmlFor="firstname"
           className="text-xs font-medium text-gray-900"
@@ -26,11 +72,13 @@ export default function ContactMePage() {
             name="firstname"
             placeholder="Enter your firstname"
             required
+            value={formData.firstname}
+            onChange={handleChange}
           />
         </label>
 
         <label
-          htmlFor="firstname"
+          htmlFor="lastname"
           className="block text-xs font-medium text-gray-900"
         >
           Lastname
@@ -42,6 +90,8 @@ export default function ContactMePage() {
             name="lastname"
             placeholder="Enter your lastname"
             required
+            value={formData.lastname}
+            onChange={handleChange}
           />
         </label>
 
@@ -58,6 +108,8 @@ export default function ContactMePage() {
             name="email"
             placeholder="Enter your email address"
             required
+            value={formData.email}
+            onChange={handleChange}
           />
         </label>
 
@@ -75,12 +127,14 @@ export default function ContactMePage() {
               placeholder="Type your message here"
               required
               minLength={6}
+              value={formData.message}
+              onChange={handleChange}
             />
           </label>
         </div>
 
         <button
-          type="submi"
+          type="submit"
           className={`mt-5 w-[360px] flex justify-start items-center gap-3 text-md text-sky-100 bg-blue-800 p-3 rounded-xl hover:bg-blue-900 lg:text-lg`}
         >
           Send Message
